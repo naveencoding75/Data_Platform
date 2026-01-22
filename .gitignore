@@ -1,0 +1,10 @@
+# Dependencies
+node_modules/
+
+# Environment variables (Safety)
+.env
+
+# System files
+.DS_Store
+dist/
+build/
