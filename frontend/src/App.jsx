@@ -104,7 +104,7 @@ function App() {
       <h3>Raw Data Log</h3>
       <table border="1" cellPadding="10" style={{ width: '100%', borderCollapse: 'collapse' }}>
         <thead>
-          <tr style={{ background: '#f4f4f4' }}>
+          <tr style={{ background: '#1da9bb' }}>
             <th>Time</th>
             <th>Item</th>
             <th>Value ($)</th>
