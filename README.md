@@ -3,8 +3,6 @@
 ![Project Status](https://img.shields.io/badge/Status-Active_Monitoring-green)
 ![Stack](https://img.shields.io/badge/Stack-React_%2B_Node_%2B_MySQL-blue)
 
-*(Place a high-quality screenshot of your live Chart.js dashboard here)*
-
 A full-stack ETL (Extract, Transform, Load) pipeline that automates data collection, enforces quality checks, and provides real-time monitoring via a WebSocket-connected dashboard.
 
 ## 🚀 Key Features
@@ -34,14 +32,14 @@ A full-stack ETL (Extract, Transform, Load) pipeline that automates data collect
 
 ### 2. Database Setup
 Ensure your MySQL server is running, then execute the backend setup script to create the schema:
-```bash
+```sql
 cd backend
 node setup.js
 ```
 ### 3. Backend Setup
 Navigate to the backend directory and install dependencies:
 
-```bash
+```sql
 cd backend
 npm install
 ```
@@ -55,13 +53,13 @@ DB_NAME=monitoring_db
 PORT=5000
 Start the backend server (this will also start the automated Cron jobs):
 
-```bash
+```sql
 npm run dev
 ```
 ### 4. Frontend Setup
 Open a new terminal, navigate to the frontend directory, and install dependencies:
 
-```bash
+```sql
 cd frontend
 npm install
 ```
@@ -71,7 +69,7 @@ Code snippet
 VITE_API_URL=http://localhost:5000
 Start the Vite development server:
 
-```bash
+```sql
 npm run dev
 ```
 Visit http://localhost:5173 to view the live dashboard.
